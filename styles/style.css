@@ -85,7 +85,7 @@ padding-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 0;
-    /* height: 600px;  */
+    max-height: 600px; 
 
 }
 .banner-upper-text{
@@ -120,7 +120,7 @@ margin-bottom: 40px;
     background-size: cover;
     padding: 100px;
     padding-bottom: 150px;
-    /* height: 600px;  */
+    max-height: 600px; 
 }
 
 .party-title {
@@ -136,7 +136,7 @@ margin-bottom: 40px;
 }
 
 .event-container {
-    height: 420px;
+    max-height: 450px;
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 100px;
@@ -220,3 +220,24 @@ text-align: center;
 }
 
 /* newsletter section styles */
+.newsletter-container {
+    background-color: rgba(255, 0, 0, 0.05);
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+.newsletter-container p {
+    color: rgba(7, 2, 17, 0.60);
+    max-width: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+.newsletter-container img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.newsletter-input {
+    margin: 0 auto;
+}
