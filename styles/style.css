@@ -20,14 +20,13 @@ section title's upper text
     font-family: 'Inter', sans-serif;
 
 }
-.banner-upper-text {
+.banner-upper-text, .banner-title  {
     font-family: 'Merriweather';
 }
 
 .banner-title {
     color: #FFF;
     text-align: center;
-    font-family: 'Merriweather';
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -48,8 +47,18 @@ section title's upper text
   
 }
 
-
-
+.st-upper-text {
+    color: #F00;
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+}
+.section-title {
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+}
 
 
 /* header section styles */
@@ -58,7 +67,7 @@ section title's upper text
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 0;
-    /* height: 600px; */
+    /* height: 600px;  */
 }
 .banner-upper-text{
     color: #FFF;
@@ -67,3 +76,13 @@ section title's upper text
     font-weight: 400;
 }
 
+/* offer section styles */
+.offer-container {
+    margin-top: 120px;
+}
+.off {
+    color: #F00;
+text-align: center;
+font-size: 80px;
+font-weight: 700;
+}
