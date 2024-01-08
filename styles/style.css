@@ -55,11 +55,11 @@ line-height: 30px;
 }
 
 .container {
-  width: 80%;
-  max-width: 1320px;
+  max-width: 80%;
+  max-width: 1090px;
   border-radius: 16px;
   margin: 0 auto;
-  margin-top: 50px;
+  padding: 100px;
   
 }
 
@@ -72,8 +72,9 @@ margin-bottom: 10px;
 }
 .section-title {
     color: #070211;
+    font-family: 'Merriweather';
 text-align: center;
-font-size: 48px;
+font-size: 45px;
 font-weight: 700;
 padding-bottom: 20px;
 }
@@ -86,6 +87,7 @@ padding-bottom: 20px;
     background-size: cover;
     padding: 150px 0;
     max-height: 600px; 
+    margin-top: 50px;
 
 }
 .banner-upper-text{
@@ -97,7 +99,7 @@ padding-bottom: 20px;
 
 /* offer section styles */
 .offer-container {
-    margin-top: 120px;
+    margin-top: 50px;
 }
 .off {
     color: #F00;
@@ -118,21 +120,40 @@ margin-bottom: 40px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px;
-    padding-bottom: 150px;
-    max-height: 600px; 
+    /* padding: 100px; */
+    /* padding-bottom: 150px; */
+    /* max-height: 600px;  */
+    /* margin: 100px; */
+    /* padding-bottom: 100px; */
+}
+.party-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.party-box img {
+    max-width: 300px;
+    max-height: 400px;
+    margin-left: 100px;
 }
 
 .party-title {
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
+    display: inline-block;
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    max-width: 500px;
 }
-/* .party-description {
-    
-} */
+.party-description {
+    display: inline-block;
+    /* margin-left: 100px; */
+}
 
 .party-btn {
     background-color: transparent;
+    display: block;
+    /* margin-left: 100px; */
 }
 
 .event-container {
@@ -164,7 +185,7 @@ text-align: center;
 
 /* coming soon section */
 .coming-container {
-    margin-top: 120px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -248,7 +269,9 @@ text-align: center;
 .newsletter-input {
     margin: 0 auto;
 }
-
+.subs-nl {
+    font-weight: 900;
+}
 /* email subscription styles*/
 .newsletter-input{
     position: relative;
@@ -309,4 +332,25 @@ text-align: center;
     max-width: 1320px;
     display: flex;
     justify-content: space-between;
+}
+
+.footer-div {
+
+}
+.footer-container {
+ position: relative;
+}
+#hr1 {
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+#hr2 {
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    left: 10%;
 }
