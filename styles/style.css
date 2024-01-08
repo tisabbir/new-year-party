@@ -52,12 +52,14 @@ section title's upper text
 text-align: center;
 font-size: 20px;
 font-weight: 500;
+margin-bottom: 10px;
 }
 .section-title {
     color: #070211;
 text-align: center;
 font-size: 48px;
 font-weight: 700;
+padding-bottom: 20px;
 }
 
 
@@ -85,4 +87,11 @@ font-weight: 700;
 text-align: center;
 font-size: 80px;
 font-weight: 700;
+margin-bottom: 40px;
+}
+
+.offer-content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
