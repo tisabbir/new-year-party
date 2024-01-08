@@ -49,7 +49,7 @@ section title's upper text
 .para {
     max-width: 650px;
     color: rgba(255, 255, 255, 0.80);
-font-size: 18px;
+font-size: 20px;
 font-weight: 400;
 line-height: 30px;
 }
@@ -232,12 +232,34 @@ text-align: center;
     max-width: 850px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 45px;
 }
 .newsletter-container img {
     width: 150px;
     height: 150px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 .newsletter-input {
     margin: 0 auto;
+}
+
+/* email subscription styles*/
+.newsletter-input{
+    position: relative;
+}
+.newsletter-input input{
+    width: 620px;
+    height: 35px;
+    border: none;
+    padding: 25px;
+    border-radius: 50px;
+}
+.newsletter-input .btn {
+    border-radius: 0px 50px 50px 0px;
+    position:absolute;
+    top: 0;
+    right: -3%;
+    bottom: 0;
 }
