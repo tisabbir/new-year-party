@@ -44,6 +44,9 @@ section title's upper text
   padding: 16px 32px;
   border: none;
 }
+.btn:hover {
+    background-color: rgba(255, 0, 0, 0.506);
+}
 .para {
   max-width: 650px;
   color: rgba(255, 255, 255, 0.8);
@@ -147,7 +150,7 @@ section title's upper text
   /* margin-left: 100px; */
 }
 
-.party-btn {
+.party-btn , .unsub-btn {
   background-color: transparent;
   display: block;
   /* margin-left: 100px; */
