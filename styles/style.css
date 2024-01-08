@@ -27,7 +27,7 @@ section title's upper text
 .banner-title {
     color: #FFF;
     text-align: center;
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 900;
     line-height: 95px;
     max-width: 632px;
@@ -266,14 +266,43 @@ text-align: center;
 
 /* footer section styles */
 .footer-container {
-  margin-top: 120px;
-  background: #070211;
-  width: 100%;
+    margin-top: 120px;
+    padding: 120px 0 120px 0;
+    background-color: #070211;
+
 }
 .footer-div {
+  width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    background-color: #F00;
+}
+.address {
+    width: 80%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number, .web  {
+    display: flex;
+    gap: 16px;
+}
+.icon-div {
+    margin-top: 90px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 90px;
+}
+.icon-div img {
+    width: 64px;
+    height: 64px;
+}
+
+.last-div {
+    width: 80%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
 }
