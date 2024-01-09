@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 .banner-upper-text,
 .banner-title {
@@ -129,10 +130,10 @@
   display: inline-block;
 }
 
-.party-btn,
-.unsub-btn {
-  background-color: transparent;
+.party-btn {
+  /* background-color: transparent; */
   display: block;
+  margin-top: 25px;
 }
 
 .event-container {
@@ -178,6 +179,9 @@
 .coming-text {
   text-align: left;
 }
+.coming-h {
+  text-align: left;
+}
 .div2024 {
   text-align: right;
 }
@@ -187,7 +191,7 @@
 .div2024 img {
   margin-top: 20px;
 }
-.img-circle {
+.img-circle img {
   border: 10px solid #f00;
   border-radius: 50%;
   padding: 10px;
@@ -251,7 +255,8 @@
   height: 206px;
   flex-shrink: 0;
   top: 20%;
-  right: 30%;
+  right: 35%;
+  z-index: 1;
 }
 
 /* Portfolio Section */
@@ -279,6 +284,9 @@
 }
 .portfolio-content img {
   width: 30%;
+}
+.portfolio-content img:hover {
+  opacity: 0.5;
 }
 /* newsletter section styles */
 .newsletter-container {
@@ -318,6 +326,9 @@
   border: none;
   padding: 25px;
   border-radius: 50px;
+}
+.newsletter-input input:focus {
+  outline: none;
 }
 .newsletter-input .btn {
   border-radius: 0px 50px 50px 0px;
@@ -386,4 +397,8 @@
   position: absolute;
   top: 65%;
   left: 10%;
+}
+.unsub-btn {
+  position: relative;
+  left: 70px;
 }
